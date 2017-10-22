@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jukebox Player</title>
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+</head>
+
+<body>
+  
+<body>
+<center>
+<div class="position">
+  <div>
+    
+    <button id="pause"> <a class="round-button" id="pauseBtn"><i class="fa fa-pause" aria-hidden="true" style="font-size:40px;  margin-top:8px"></i></a></button>
+
+    <button id="play"><a   class="round-button" id="playBtn"><i class="fa fa-power-off fa-spin " style="font-size:50px;  margin-top:2.2px"></i></a></button>
+
+    <button id="stop"> <a class="round-button" id="stopBtn"><i class="fa fa-stop" aria-hidden="true" style="font-size:40px;  margin-top:8px"></i></a> </button>
+
+    <button id="newSong"> <a class="round-button" id="stopBtn">New <i class="fa fa-music" aria-hidden="true" style="font-size:20px; text-decoration:"none"></i></a></button>
+    <div><a href="" id="songTitle"></a></div>
+
+
+
+  <!--   <center>
+  <p> Volume: </P>
+    <input class="volumeStyle" id="vol-control" type="range" min="0" max="100" value="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+  </center> -->
+
+  </div>
+
+</div>
+</center>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://connect.soundcloud.com/sdk/sdk-3.2.2.js"></script>
+  <script src="env.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
